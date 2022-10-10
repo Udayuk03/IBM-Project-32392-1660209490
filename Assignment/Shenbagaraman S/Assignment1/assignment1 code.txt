@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Profile</title>
+    <link rel="icon" href="images/profile icon.jpg">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .progress {
+            width: 440px;
+        }
+
+        .container {
+            width: 1000px;
+        }
+    </style>
+</head>
+
+<body> <br> <br>
+    <div class="container bg-white">
+        <b>Shenbagaraman S</b>
+        <div class="float-right">
+            <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp;
+            <i class="fa fa-facebook-official" aria-hidden="true"></i> &nbsp;
+            <i class="fa fa-twitter" aria-hidden="true"></i> &nbsp;
+            <i class="fa fa-github" aria-hidden="true"></i>
+        </div> <br> <br>
+
+        <div class="card shadow">
+
+            <div class="card-header bg-primary">
+                <div class="text-white">
+                    <div
+                        style="height:200px;width:210px;margin-right:32px;background-color:white;float:left;align-items:center;padding:10px;">
+                        <img src="data:image/png;base64,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"
+                            alt="My image" style="height:181px;width:190px; ">
+                    </div>
+                    <div class="name">
+                        <div style="margin-top:34px;">
+                            <h1><b>Shenbagaraman S</b></h1>
+                            <p>Frontend Developer</p>
+                            <button type="button" class="btn btn-light" style="border-radius:20px;">Download CV</button>
+                            <button type="button" class="btn btn-success" style="border-radius:20px;">Hire Me</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-body bg-white">
+                <div class="text-black text-left float-left">
+                    <h5><b>About Me</b></h5>
+                    <p>
+                        I'm Shenbagaraman S <br>
+                        I'm passionate about Frontend Developer. <br>
+                    </p>
+                </div>
+                <div class="float-right">
+                    <table style="margin-right: 100px;">
+                        <tr>
+                            <td>Age</td>
+                            <td> &nbsp; 21</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td><a href=""> &nbsp; ssram10082001@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td> &nbsp; 9789653790</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td> &nbsp; National enginering College, Kovilpatti</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="card-footer bg-white">
+                <div class="">
+                    <h5><b>Professional Skills</b></h5>
+                    <table class="float-left">
+                        <tr>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:90%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:90%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width:70%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="float-right">
+                        <tr>
+                            <td>Jsp</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:90%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ajax</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:50%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sql</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" style="width:60%"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div><br>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<style>
+    .name {
+        margin-left: 100px;
+    }
+</style>
